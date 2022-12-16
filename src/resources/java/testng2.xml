@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Application">
+	<test name="Login Page Test cases">
+		<groups>
+			<run>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestLayer.LoginPageTest"></class>
+		</classes>
+	</test>
+</suite>
